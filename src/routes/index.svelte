@@ -6,18 +6,17 @@
 </div>
 
 <style>
-    :global(body) {
-        background-color: antiquewhite;
-        margin: 0 auto;
-    }
+    
 	h1 {
 		font-family: 'Besley', serif;
 		font-weight: 400;
+        font-size: 2rem;
 		margin: 0;
 	}
 	h3 {
 		font-family: 'Work Sans', sans-serif;
 		font-weight: 400;
+        font-size: 1.4rem;
 	}
     .centralizer {
         width: 100vw;
@@ -32,6 +31,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+        gap: 1rem;
 		border: solid 2px;
 		border-radius: 1rem;
 		max-width: 24rem;
